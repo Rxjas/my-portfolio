@@ -1,0 +1,117 @@
+/* animation from  https://manuelpinto.in/*/
+body, html{
+	font-family: 'Source Code Pro', monospace;
+	background: linear-gradient(-45deg, #f79e02, #6cdaee, #0074e1, #10e7dc);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.navy{
+	background-color: rgba(0, 0, 0, 0.671)
+}
+#master{
+	text-align: center;
+}
+
+h1{
+	text-align: center;
+}
+
+#myself{
+	width: 400;
+	height: 256px;
+	border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.floating{
+	animation-name: floating; 
+    animation-duration: 3s; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: ease-in-out; 
+    animation-delay: 0.1s;
+}
+@keyframes floating { 
+    0% { transform: translate(0,  0px); } 
+    50%  { transform: translate(0, 15px); } 
+    100%   { transform: translate(0, -0px); }     
+} 
+
+.floating1{
+	animation-name: floating1; 
+    animation-duration: 3s; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: ease-in-out; 
+    animation-delay: 0.3s;
+}
+@keyframes floating1 { 
+    0% { transform: translate(0,  0px); } 
+    50%  { transform: translate(0, 15px); } 
+    100%   { transform: translate(0, -0px); }     
+} 
+
+.floating2{
+	animation-name: floating2; 
+    animation-duration: 3s; 
+    animation-iteration-count: infinite; 
+	animation-timing-function: ease-in-out; 
+	animation-delay: 0.4s;
+}
+@keyframes floating2 { 
+    0% { transform: translate(0,  0px); } 
+    50%  { transform: translate(0, 15px); } 
+    100%   { transform: translate(0, -0px); }     
+} 
+
+.floating3{
+	animation-name: floating3; 
+    animation-duration: 3s; 
+    animation-iteration-count: infinite; 
+	animation-timing-function: ease-in-out; 
+	animation-delay: 0.5s;
+}
+@keyframes floating3 { 
+    0% { transform: translate(0,  0px); } 
+    50%  { transform: translate(0, 15px); } 
+    100%   { transform: translate(0, -0px); }     
+} 
+
+.center{
+	text-align: center;
+}
+
+.iconContainer{
+	justify-content: center;
+
+}
+
+.icon{
+	justify-content: center;
+	width: 64px;
+	height: 64px;
+}
+
+.description{
+	font-size: 24px;
+	font-weight: 300;
+	text-align: center;
+}
+
+h4{
+	text-decoration: underline;
+}
