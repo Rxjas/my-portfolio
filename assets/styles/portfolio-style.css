@@ -1,7 +1,6 @@
 /* animation from  https://manuelpinto.in/*/
 body, html{
     text-align: center;
-
     font-family: 'Source Code Pro', monospace;
 	background: linear-gradient(-45deg, #f79e02, #6cdaee, #0074e1, #10e7dc);
 	background-size: 400% 400%;
@@ -19,8 +18,15 @@ body, html{
 		background-position: 0% 50%;
 	}
 }
+.portfolio{
+	background-color: rgba(255, 255, 255, 0.829);
+}
 
 .header{
     font-weight: bold;
     text-underline-position: below;
+}
+
+.navy{
+	background-color: rgba(0, 0, 0, 0.671)
 }
