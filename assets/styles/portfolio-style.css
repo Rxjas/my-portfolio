@@ -12,6 +12,10 @@ img{
     text-align: center;
 }
 
+.lrgtxt{
+    font-size: 2rem;
+}
+
 .portfolio{
 	background-color: rgba(255, 255, 255, 0.829);
 }

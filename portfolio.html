@@ -22,10 +22,11 @@
 </head>
 
 <body>
-   <!--nav bar with name-->
-   <nav class="navbar navbar-expand-lg navbar-dark navy">
+  <!--nav bar with name-->
+  <nav class="navbar navbar-expand-lg navbar-dark navy">
     <a class="navbar-brand" href="index.html">Christopher Rojas</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
@@ -34,8 +35,7 @@
           <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item underline">
-          <a class="nav-link" href
-          ="portfolio.html">Portfolio</a>
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="contact.html">Contact</a>
@@ -53,103 +53,112 @@
     </div>
   </div>
 
-  
+
   <!-- old cards -->
   <div class="container-sm">
-    <div class="row pb-4 pt-2">
-      <div class="col-12">
-        <div class="card">
-          <img src="gif-assets/covid.gif" class="card-img-top" alt="gif example of website">
-          <div class="card-body">
-            <h3 class="card-title">Covid National Park Info</h3>
-            <p class="card-text">This project was a group effort, created to help people during the Coronavirus
-              pandemic. Using multiple APIs we created an application that shows you information about national parks
-              and covid information in a state.</p>
-            <a href="https://abbynf.github.io/covid-travel/" class="btn btn-primary">Live</a>
-            <a href="https://github.com/abbynf/covid-travel" class="btn btn-primary">Github</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container-sm">
-      <div class="row pb-4 pt-2">
+    <div class="card-group">
+      <div class="row pb-3 pt-2">
         <div class="col-12">
-          <div class="card">
-            <img src="gif-assets/burgerDevourer.gif" class="card-img-top" alt="gif example of website">
+          <div class="card darkBack pt-3 pl-3 pr-3">
+            <img src="gif-assets/covid.gif" class="card-img-top" alt="gif example of website">
             <div class="card-body">
-              <h3 class="card-title">Burger Devourer!</h3>
-              <p class="card-text">This is a full-stack project hosted on Heroku, with a SQL Database accompanying it. 
-                Using an express server and ORM for the interaction between the user and DB. 
-                It allows the user to add a burger that they will eat, and once they do eat it they can update the status!</p>
-              <a href="https://frozen-cliffs-92307.herokuapp.com/" class="btn btn-primary">Live</a>
-              <a href="https://github.com/Rxjas/Burger-Devourer" class="btn btn-primary">Github</a>
+              <h3 class="card-title lrgtxt">Covid National Park Info</h3>
+              <p class="card-text">This project was a group effort, created to help people during the Coronavirus
+                pandemic. Using multiple APIs we created an application that shows you information about national parks
+                and covid information in a state.</p>
+              <div class="center">
+                <a href="https://abbynf.github.io/covid-travel/" class="btn btn-outline-primary lrgtxt">Live</a>
+                <a href="https://github.com/abbynf/covid-travel" class="btn btn-outline-info lrgtxt">Github</a>
+              </div>
+
             </div>
           </div>
         </div>
       </div>
 
-    <div class="row pb-4 pt-4">
-      <div class="col-12">
-        <div class="card">
-          <img src="gif-assets/weather-dash.gif" class="card-img-top" alt="weather dashboard gif">
-          <div class="card-body">
-            <h3 class="card-title">Weather Dashboard</h3>
-            <p class="card-text">The weather dashboard was created to display information of how the weather is for a
-              city. Made using the <a href="https://openweathermap.org/">Open Weather API</a> it dynamically shows the
-              weather information for that city that day, in addition it will also show how the weather for the next 5
-              days, it also allows you to search the previous cities you've looked up by saving it in the search
-              history. </p>
-            <a href="https://rxjas.github.io/hows-the-weather/" class="btn btn-primary">Live</a>
-            <a href="https://github.com/Rxjas/hows-the-weather" class="btn btn-primary">Github</a>
+
+      <div class="row pb-3 pt-2">
+        <div class="col-12">
+          <div class="card darkBack pt-2 pl-2 pr-2">
+            <img src="gif-assets/burgerDevourer.gif" class="card-img-top" alt="gif example of website">
+            <div class="card-body">
+              <h3 class="card-title">Burger Devourer!</h3>
+              <p class="card-text">This is a full-stack project hosted on Heroku, with a SQL Database accompanying it.
+                Using an express server and ORM for the interaction between the user and DB.
+                It allows the user to add a burger that they will eat, and once they do eat it they can update the
+                status!</p>
+              <a href="https://frozen-cliffs-92307.herokuapp.com/" class="btn btn-outline-primary">Live</a>
+              <a href="https://github.com/Rxjas/Burger-Devourer" class="btn btn-outline-info">Github</a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="row pb-4 pt-4">
-      <div class="col-12">
-        <div class="card">
-          <img src="gif-assets/day-planner.gif" class="card-img-top" alt="day planner gif">
-          <div class="card-body">
-            <h3 class="card-title">Day Planner Saves the Day!</h3>
-            <p class="card-text">This application was created to help people organize and plan their work day schedule.
-              You can write and save what needs to be done that hour and the calendar changes colors as the hours past,
-              highlighting the current hour and showing previous hours in red.</p>
-            <a href="https://rxjas.github.io/calendar-save-the-day/" class="btn btn-primary">Live</a>
-            <a href="https://github.com/Rxjas/calendar-save-the-day" class="btn btn-primary">Github</a>
+      <div class="row pb-3 pt-4">
+        <div class="col-12">
+          <div class="card darkBack pt-2 pl-2 pr-2">
+            <img src="gif-assets/weather-dash.gif" class="card-img-top" alt="weather dashboard gif">
+            <div class="card-body">
+              <h3 class="card-title">Weather Dashboard</h3>
+              <p class="card-text">The weather dashboard was created to display information of how the weather is for a
+                city. Made using the <a href="https://openweathermap.org/">Open Weather API</a> it dynamically shows the
+                weather information for that city that day, in addition it will also show how the weather for the next 5
+                days, it also allows you to search the previous cities you've looked up by saving it in the search
+                history. </p>
+              <a href="https://rxjas.github.io/hows-the-weather/" class="btn btn-outline-primary">Live</a>
+              <a href="https://github.com/Rxjas/hows-the-weather" class="btn btn-outline-info">Github</a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="row pb-4 pt-4">
-      <div class="col-12">
-        <div class="card">
-          <img src="gif-assets/random-pass.gif" class="card-img-top" alt="Random password generator gif">
-          <div class="card-body">
-            <h3 class="card-title">Random Password Generator</h3>
-            <p class="card-text">The random password generator is as the name implies. Using prompts and alerts it helps
-              guide the user to create a random password using the criteria they choose. Thus creating a password
-              suitable to the user and never saves to the site making it secure.</p>
-            <a href="https://rxjas.github.io/random-password-gen/" class="btn btn-primary">Live</a>
-            <a href="https://github.com/Rxjas/random-password-gen" class="btn btn-primary">Github</a>
+      <div class="row pb-3 pt-4">
+        <div class="col-12">
+          <div class="card darkBack pt-2 pl-2 pr-2">
+            <img src="gif-assets/day-planner.gif" class="card-img-top" alt="day planner gif">
+            <div class="card-body">
+              <h3 class="card-title">Day Planner Saves the Day!</h3>
+              <p class="card-text">This application was created to help people organize and plan their work day
+                schedule.
+                You can write and save what needs to be done that hour and the calendar changes colors as the hours
+                past,
+                highlighting the current hour and showing previous hours in red.</p>
+              <a href="https://rxjas.github.io/calendar-save-the-day/" class="btn btn-outline-primary">Live</a>
+              <a href="https://github.com/Rxjas/calendar-save-the-day" class="btn btn-outline-info">Github</a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="row pb-4 pt-4">
-      <div class="col-12">
-        <div class="card">
-          <img src="gif-assets/quiz.gif" class="card-img-top" alt="quiz gif">
-          <div class="card-body">
-            <h3 class="card-title">Javascript Quiz</h3>
-            <p class="card-text">The application is a timed quiz that tests the user's knowledge on Javascript. In
-              addition to that it tracks the score of the user and will then add the initials of the user to the
-              scoreboard to show their ranking.</p>
-            <a href="https://rxjas.github.io/code-quiz/" class="btn btn-primary">Live</a>
-            <a href="https://github.com/Rxjas/code-quiz" class="btn btn-primary">Github</a>
+      <div class="row pb-3 pt-4">
+        <div class="col-12">
+          <div class="card darkBack pt-2 pl-2 pr-2">
+            <img src="gif-assets/random-pass.gif" class="card-img-top" alt="Random password generator gif">
+            <div class="card-body">
+              <h3 class="card-title">Random Password Generator</h3>
+              <p class="card-text">The random password generator is as the name implies. Using prompts and alerts it
+                helps
+                guide the user to create a random password using the criteria they choose. Thus creating a password
+                suitable to the user and never saves to the site making it secure.</p>
+              <a href="https://rxjas.github.io/random-password-gen/" class="btn btn-outline-primary">Live</a>
+              <a href="https://github.com/Rxjas/random-password-gen" class="btn btn-outline-info">Github</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row pb-3 pt-4">
+        <div class="col-12">
+          <div class="card darkBack pt-2 pl-2 pr-2">
+            <img src="gif-assets/quiz.gif" class="card-img-top" alt="quiz gif">
+            <div class="card-body">
+              <h3 class="card-title">Javascript Quiz</h3>
+              <p class="card-text">The application is a timed quiz that tests the user's knowledge on Javascript. In
+                addition to that it tracks the score of the user and will then add the initials of the user to the
+                scoreboard to show their ranking.</p>
+              <a href="https://rxjas.github.io/code-quiz/" class="btn btn-outline-primary">Live</a>
+              <a href="https://github.com/Rxjas/code-quiz" class="btn btn-outline-info">Github</a>
+            </div>
           </div>
         </div>
       </div>
