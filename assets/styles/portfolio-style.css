@@ -1,11 +1,7 @@
 .darkBack{
     background-color: rgb(37, 36, 36);
     color: rgb(141, 138, 138);
-}
-
-img{
-    width: auto;
-    height: auto;
+    border-radius: 4px;
 }
 
 .center{
