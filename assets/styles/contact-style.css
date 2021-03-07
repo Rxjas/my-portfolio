@@ -17,10 +17,7 @@ body, html{
 	}
 }
 
-.underline{
-	text-decoration: underline solid white;
-	text-decoration-thickness: 0.15rem;
-}
+
 
 .navy{
 	background-color: rgba(0, 0, 0, 0.671)
