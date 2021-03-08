@@ -3,7 +3,15 @@
     color: rgb(141, 138, 138);
     border-radius: 4px;
 }
+hr{
+    border-color: rgba(110, 101, 101, 0.733);
+    border-width: 2px;
+}
 
+.imgBorder{
+    background-color: rgb(68, 65, 65);
+    border-color: rgb(41, 39, 39);
+}
 .center{
     text-align: center;
 }
