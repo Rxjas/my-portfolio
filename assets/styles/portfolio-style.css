@@ -8,6 +8,12 @@ hr{
     border-width: 2px;
 }
 
+.breakTitle{
+    text-align: left;
+    border-bottom: black solid 2px;
+
+}
+
 .imgBorder{
     background-color: rgb(68, 65, 65);
     border-color: rgb(41, 39, 39);
